@@ -1,7 +1,7 @@
 body {
   background-color: #333;
-  color: #ccc;
-  font-size: 1.7em;
+  color: #ddd;
+  font-size: 17pt;
   text-align: center;
 }
 a { background-color: transparent; }
@@ -27,7 +27,7 @@ header h1 {
 header ul {
   border-top: 1px solid #999;
   font-weight: bold;
-  font-size: 80%;
+  font-size: .8em;
   margin: 0;
   padding: 0;
   width: 95%;
@@ -51,10 +51,9 @@ footer {
   width: 75%;
   text-align: center;
 }
+
 @media only screen and (max-width: 800px) {
-  body {
-    font-size: 14pt;
-  }
+  body { font-size: 14pt; }
   header, #content { width: 95%; }
   #content { text-align: justify; }
 }
